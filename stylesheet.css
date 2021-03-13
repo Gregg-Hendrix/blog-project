@@ -1,20 +1,47 @@
-.sidebar {
-    height: 200px;
-    width: 150px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 40px;
-    background-color: rgb(202, 173, 230);
+.header{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: indigo;
+}
+.intro{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: indigo;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border: 2px solid violet;
+}
+
+    .box{
+        width: 250px;
+        height: 150px;
+        border: 2px solid green;
+        border-style: double;
     }
-    
-    .sidebar div {
-    padding: 8px;
-    font-size: 24px;
-    display: block;
+    #one{
+        display: flex;
+        justify-content: center;
+        order:1;
     }
-    
-    .body-text {
-    margin-left: 150px;
-    font-size: 18px;
+    #two{
+        display: flex;
+        justify-content: center;
+        order:2;
     }
+    #three{
+        display: flex;
+        justify-content: center;
+        order:3;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: indigo;
+    }
+     </style>
