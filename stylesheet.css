@@ -10,38 +10,40 @@
         justify-content: center;
         border: indigo;
 }
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    border: 2px solid violet;
+.container{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    grid-template-columns: 40px repeat(7 1fr);
+    grid-template-rows: 60px 400px 1fr;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "sd main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
 }
 
-    .box{
-        width: 250px;
-        height: 150px;
-        border: 2px solid green;
-        border-style: double;
+    .box {
+        border: 1px solid rebeccapurple;
+        background: #F8FA9D;
     }
-    #one{
-        display: flex;
-        justify-content: center;
-        order:1;
+
+    .header{
+        grid-area: hd;
     }
-    #two{
-        display: flex;
-        justify-content: center;
-        order:2;
+
+    .sidebar{
+        grid-area: sd;
     }
-    #three{
-        display: flex;
-        justify-content: center;
-        order:3;
+
+    .content{
+        grid-area: main;
     }
-    .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        border: indigo;
+
+    .footer{
+        grid-area: ft;
     }
-     </style>
+
+
+    
+     
