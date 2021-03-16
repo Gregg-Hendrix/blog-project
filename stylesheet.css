@@ -21,16 +21,20 @@
 .left-sidebar{
   grid-area: sd;
   text-align: center;
-  background: #dfeffd;
   border: 3px solid #457fdc;
-  color: #457fdc;
+  background-image: url(images/Trees.jpg);
+  background-size: cover;
 }
 .content{
   grid-area: main;
   text-align: center;
-  background: #dfeffd;
   border: 3px solid #457fdc;
-  color: #457fdc;
+  color: aliceblue;
+  background-image:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url(images/Big\ River.jpg);
+  background-size: cover;
 }
 .ending{
   grid-area: ft;
