@@ -7,7 +7,7 @@
     grid-template-rows: 60px 400px 1fr;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
-    "sd main main main main main main main"
+    "main main main main main main main main"
     "ft ft ft ft ft ft ft ft";
     border: 2px solid greenyellow;
 }
@@ -19,10 +19,6 @@
 
     .header{
         grid-area: hd;
-    }
-
-    .sidebar{
-        grid-area: sd;
     }
 
     .content{
