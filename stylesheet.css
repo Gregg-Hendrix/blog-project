@@ -2,12 +2,16 @@
   display: grid;
   grid-gap: 0.625rem;
   grid-template-columns: 40px repeat(7 1fr);
-  grid-template-rows: 60px 400px 1fr;
+  grid-template-rows: 70px 600px 1fr;
   grid-template-areas: 
   "hd hd hd hd hd hd hd hd"
   "sd main main main main main main main"
   "ft ft ft ft ft ft ft ft";
     
+}
+
+.article {
+  
 }
 
 .title{
@@ -51,7 +55,7 @@
     border-radius:5px;
     cursor:pointer;
 }
-}
+
 
     
      
