@@ -28,3 +28,10 @@
     .footer{
         grid-area: ft;
     }
+    @media (max-width: 500px){
+        .container{
+          grid-template-areas: 
+          "hd"
+          "sd main"
+          "ft";
+          }
