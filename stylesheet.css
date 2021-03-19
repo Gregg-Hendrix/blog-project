@@ -10,8 +10,54 @@
     
 }
 
-.article {
-  
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly; 
+}
+
+.meditation-card{
+  align-self: left;
+  padding: 50px;
+  background-image: url(images/Reiki\ card.jpg);
+  background-size: cover;
+  border: 3px solid #457fdc;
+  text-align: center;
+}
+
+.meditation-card-link{
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  font-size:30px;
+  padding: 12px;
+  cursor: pointer;
+}
+.meditation-card-link:hover{
+  background-color: crimson;
+  color: wheat;
+}
+
+.reiki-card-link{
+  border: 2px solid blueviolet;
+  border-radius: 50%;
+  font-size:30px;
+  padding: 12px;
+  cursor: pointer;
+}
+.reiki-card-link:hover{
+  background-color: crimson;
+  color: wheat;
+}
+.reiki-card{
+  align-self: center;
+  border: 2px solid aliceblue;
+  padding: 50px;
+  background-image: url(images/actual\ reiki\ card.jpg);
+  background-size: cover;
+  border: 3px solid #457fdc;
+  text-align: center;
 }
 
 .title{
@@ -56,12 +102,30 @@
     cursor:pointer;
 }
 
-@media (max-width: 500px){
+@media (max-width: 320px){
   .container {
     grid-template-areas:
      "hd" 
      "sd main"
      "ft";
+  }
+}
+
+@media (min-width: 901px){
+  .container {
+    grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "sd main main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+  }
+}
+
+@media (min-width: 600px)and(max-width: 900px){
+  .container {
+    grid-template-areas:
+    "hd hd hd hd hd hd hd"
+    "sd main main main main main main"
+    "ft ft ft ft ft ft ft";
   }
 }
 
