@@ -57,12 +57,12 @@
 }
 
 @media (max-width: 500px){
-  .container{
-    grid-template-areas: 
-    "hd"
-    "sd main"
-    "ft";
-    }
+  .container {
+    grid-template-areas:
+     "hd" 
+     "sd main"
+     "ft";
+  }
 }
 
 
