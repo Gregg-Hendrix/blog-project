@@ -10,7 +10,7 @@
     "main main main main main main main main"
     "ft ft ft ft ft ft ft ft";
     border: 2px solid greenyellow;
-   }
+   }  
 
     .box {
         border: 1px solid rebeccapurple;
@@ -28,12 +28,16 @@
     .footer{
         grid-area: ft;
     }
+
+    .content-box{
+      overflow-wrap: break-word;
+    }
     @media (max-width: 320px){
         .container {
           grid-template-areas:
-           "hd" 
-           "sd main"
-           "ft";
+           "hd hd hd"
+           "main main main"
+           "ft ft ft";
         }
       }
       
@@ -41,7 +45,7 @@
         .container {
           grid-template-areas:
           "hd hd hd hd hd hd hd hd"
-          "sd main main main main main main main"
+          "main main main main main main main main"
           "ft ft ft ft ft ft ft ft";
         }
       }
@@ -50,7 +54,7 @@
         .container {
           grid-template-areas:
           "hd hd hd hd hd hd hd"
-          "sd main main main main main main"
+          "main main main main main main main"
           "ft ft ft ft ft ft ft";
         }
       }
