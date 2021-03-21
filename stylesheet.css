@@ -1,8 +1,13 @@
+/* Shows the borders of all of your code
+ * {
+  border: 1px solid red !important
+} */
+
 .container {
   display: grid;
   grid-gap: 0.625rem;
-  grid-template-columns: repeat(7, 150px);
-  grid-template-rows: 70px 600px 1fr;
+  grid-template-columns: repeat(3, 180px 1fr);
+  grid-template-rows: 70px 1fr 30px;
   grid-template-areas: 
   "hd hd hd hd hd hd hd hd"
   "sd main main main main main main main"
