@@ -2,7 +2,7 @@
   display: grid;
   grid-gap: 0.625rem;
   grid-template-columns: repeat(3, 180px 1fr);
-  grid-template-rows: 70px 1fr 30px;
+  grid-template-rows: 70px 1fr 40px;
   grid-template-areas: 
   "hd hd hd hd hd hd hd hd"
   "sd main main main main main main main"
