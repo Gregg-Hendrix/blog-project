@@ -3,6 +3,8 @@
   border: 1px solid red !important
 } */
 
+@import "media.css";
+
 .container {
   display: grid;
   grid-gap: 0.625rem;
@@ -105,33 +107,6 @@
     font-weight:bold;
     border-radius:5px;
     cursor:pointer;
-}
-
-@media (max-width: 320px){
-  .container {
-    grid-template-areas:
-     "hd" 
-     "sd main"
-     "ft";
-  }
-}
-
-@media (min-width: 901px){
-  .container {
-    grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "sd main main main main main main main"
-    "ft ft ft ft ft ft ft ft";
-  }
-}
-
-@media (min-width: 600px)and(max-width: 900px){
-  .container {
-    grid-template-areas:
-    "hd hd hd hd hd hd hd"
-    "sd main main main main main main"
-    "ft ft ft ft ft ft ft";
-  }
 }
 
 
