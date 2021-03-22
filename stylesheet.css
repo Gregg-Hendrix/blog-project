@@ -21,15 +21,23 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-evenly; 
 }
 
 .meditation-card{
-  align-self: left;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 280px;
   padding: 50px;
-  background-image: url(images/Reiki\ card.jpg);
+  background-image:linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(images/meditationcard.jpg);
   background-size: cover;
+  background-position-x: center;
   border: 3px solid #457fdc;
   text-align: center;
 }
@@ -59,6 +67,8 @@
 }
 .reiki-card{
   align-self: center;
+  height: 200px;
+  width: 280px;
   border: 2px solid aliceblue;
   padding: 50px;
   background-image: url(images/actual\ reiki\ card.jpg);
