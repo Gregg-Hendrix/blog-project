@@ -1,0 +1,65 @@
+.container{
+  display: grid;
+  grid-gap: 0.625rem;
+  grid-template-columns: repeat(3, 180px 1fr);
+  grid-template-rows: 70px 1fr 40px;
+  grid-template-areas: 
+  "hd hd hd hd hd hd hd hd"
+  "sd main main main main main main main"
+  "ft ft ft ft ft ft ft ft";
+   }  
+
+    .box {
+        border: 1px solid rebeccapurple;
+        background: #F8FA9D;
+    }
+
+    .header{
+        grid-area: hd;
+    }
+
+    .content-box{
+        grid-area: main;
+    }
+
+    .footer{
+        grid-area: ft;
+    }
+
+    .left-sidebar{
+      grid-area: sd;
+      text-align: center;
+      border: 3px solid #457fdc;
+    }
+
+    .gregg-pic{
+      width: 100%;
+      object-fit: contain;
+    }
+
+    @media (max-width: 320px){
+        .container {
+          grid-template-areas:
+           "hd hd hd"
+           "sd main main"
+           "ft ft ft";
+        }
+      }
+      
+      @media (min-width: 901px){
+        .container {
+          grid-template-areas:
+          "hd hd hd hd hd hd hd hd"
+          "sd main main main main main main main"
+          "ft ft ft ft ft ft ft ft";
+        }
+      }
+      
+      @media (min-width: 600px)and(max-width: 900px){
+        .container {
+          grid-template-areas:
+          "hd hd hd hd hd hd hd"
+          "sd main main main main main main"
+          "ft ft ft ft ft ft ft";
+        }
+      }
