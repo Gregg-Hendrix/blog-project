@@ -5,7 +5,7 @@
        "sd main"
        "ft ft";
     }
-  }
+    }
   
   @media (min-width: 901px){
     .container {
@@ -14,7 +14,7 @@
       "sd main main main main main main main"
       "ft ft ft ft ft ft ft ft";
     }
-  }
+    }
   
   @media (min-width: 600px)and(max-width: 900px){
     .container {
@@ -23,4 +23,4 @@
       "sd main main main main main main"
       "ft ft ft ft ft ft ft";
     }
-  }
+    }
