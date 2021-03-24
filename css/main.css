@@ -19,7 +19,7 @@
     
 }
 
-.card{
+.card {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -27,7 +27,7 @@
   justify-content: space-evenly; 
 }
 
-.meditation-card{
+.meditation-card {
   align-self: center;
   align-items: center;
   justify-content: center;
@@ -44,42 +44,44 @@
   text-align: center;
 }
 
-.meditation-card-link{
+.meditation-card-link {
   border: 2px solid blueviolet;
   border-radius: 50%;
   font-size:30px;
   padding: 12px;
   cursor: pointer;
 }
-.meditation-card-link:hover{
+
+.meditation-card-link:hover {
   background-color: crimson;
   color: wheat;
 }
 
-.reiki-card-link{
+.reiki-card-link {
   border: 2px solid blueviolet;
   border-radius: 50%;
   font-size:30px;
   padding: 12px;
   cursor: pointer;
 }
-.reiki-card-link:hover{
+
+.reiki-card-link:hover {
   background-color: crimson;
   color: wheat;
 }
-.reiki-card{
+.reiki-card {
   align-self: center;
   height: 200px;
   width: 280px;
   border: 2px solid aliceblue;
   padding: 50px;
-  background-image: url(../images/actual\ reiki\ card.jpg);
+  background-image: url(../images/actualreikicard.jpg);
   background-size: cover;
   border: 3px solid #457fdc;
   text-align: center;
 }
 
-.title{
+.title {
   grid-area:  hd;
   font-family: 'Merriweather', serif;
   text-align: center;
@@ -88,14 +90,15 @@
   color: #457fdc;
 }
 
-.left-sidebar{
+.left-sidebar {
   grid-area: sd;
   text-align: center;
   border: 3px solid #457fdc;
-  background-image: url(../images/Trees.jpg);
+  background-image: url(../images/trees.jpg);
   background-size: cover;
 }
-.content{
+
+.content {
   grid-area: main;
   text-align: center;
   border: 3px solid #457fdc;
@@ -103,17 +106,19 @@
   background-image:linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
-  ), url(../images/Big\ River.jpg);
+  ), url(../images/bigriver.jpg);
   background-size: cover;
 }
-.ending{
+
+.ending {
   grid-area: ft;
   text-align: center;
   background: #dfeffd;
   border: 3px solid #457fdc;
   color: #457fdc;
 }
-.meditation-link{
+
+.meditation-link {
     padding: 8px 20px;
     color: greenyellow;
     text-decoration:none;
